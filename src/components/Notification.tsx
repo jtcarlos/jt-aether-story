@@ -1,4 +1,3 @@
-"use client"
 import { Stack, Container, Button } from "aether-ui"
 
 interface NotificationProps {

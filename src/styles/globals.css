@@ -11,3 +11,7 @@ body {
   @apply text-text-light;
   font-family: var(--font-inter);
 }
+
+.page-layout {
+  min-height: 100vh;
+}
