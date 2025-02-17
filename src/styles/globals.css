@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: "Inter", sans-serif;
+}
+
+html,
+body {
+  @apply text-text-light;
+  font-family: var(--font-inter);
+}

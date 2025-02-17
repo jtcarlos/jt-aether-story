@@ -1,4 +1,5 @@
-import type { Config } from "tailwindcss";
+import DefaultColors from "tailwindcss/colors"
+import type { Config } from "tailwindcss"
 
 export default {
   content: [
@@ -13,6 +14,22 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    colors: {
+      ...DefaultColors,
+      primary: {
+        DEFAULT: "#2B50AA",
+      },
+      secondary: {
+        DEFAULT: "#DE7E4B",
+      },
+      text: {
+        DEFAULT: "#092539",
+        light: "#4D4D4D",
+      },
+      lightGray: {
+        DEFAULT: "#FAFAFA",
+      },
+    },
   },
   plugins: [],
-} satisfies Config;
+} satisfies Config
