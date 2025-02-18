@@ -1,11 +1,15 @@
 "use client"
 import { useRouter } from "next/navigation"
 import { Button, Container, Stack } from "aether-ui"
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons"
 
 import "./HomeBanner.css"
 
+/**
+ * @description renders the home hero section
+ */
 const HomeBanner: React.FC = () => {
   const router = useRouter()
 
