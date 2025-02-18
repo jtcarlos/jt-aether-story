@@ -4,13 +4,13 @@
 }
 
 #aether-sample-image-1 {
-  background: url("../../../public/aether-sample-1.png") repeat-y;
+  background: url("../../../../public/aether-sample-1.png") repeat-y;
   animation: slideDown 30s linear infinite;
   background-size: contain;
 }
 
 #aether-sample-image-2 {
-  background: url("../../../public/aether-sample-2.png") repeat-y;
+  background: url("../../../../public/aether-sample-2.png") repeat-y;
   animation: slideUp 30s linear infinite;
   background-size: contain;
 }

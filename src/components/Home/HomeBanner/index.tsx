@@ -27,12 +27,12 @@ const HomeBanner: React.FC = () => {
               <FontAwesomeIcon className="mr-[0.40rem] pt-[0.10rem]" icon={faAngleRight} />
             </button>
 
-            <p className="text-text font-bold text-3xl 2xl:text-4xl leading-[1.25]">
+            <h1 className="text-text font-bold text-3xl 2xl:text-4xl leading-[1.25]">
               A React.js library designed to <br className="hidden lg:block" />{" "}
               <span className="text-primary">elevate your web development</span>
-            </p>
+            </h1>
 
-            <p className="text-sm md:text-base max-w-[35rem]">
+            <p className="max-w-[35rem]">
               Aether UI leverages the power of Tailwind CSS and Fontawesome for effortless and responsive styling,
               providing a cohesive and modern aesthetic components right out of the box.
             </p>
