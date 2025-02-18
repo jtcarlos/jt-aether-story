@@ -38,6 +38,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
             onLogoClick: () => router.push("/"),
           }}
           isDrawerOpen={isNavbarOpen}
+          className="mb-[0px]"
           setIsDrawerOpen={() => setIsNavbarOpen((isOpen) => !isOpen)}
           links={[
             { label: "Home", onClick: () => router.push("/") },
@@ -45,7 +46,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
             { label: "Changelog", onClick: () => router.push("/changelog") },
           ]}
         />
-        <Container>{children}</Container>
+        {children}
       </div>
       {/* Footer goes here */}
     </div>

@@ -1,0 +1,34 @@
+.home-banner {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(226, 149, 120, 0.2) 100%);
+}
+
+#aether-sample-image-1 {
+  background: url("../../../public/aether-sample-1.png") repeat-y;
+  animation: slideDown 30s linear infinite;
+  background-size: contain;
+}
+
+#aether-sample-image-2 {
+  background: url("../../../public/aether-sample-2.png") repeat-y;
+  animation: slideUp 30s linear infinite;
+  background-size: contain;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, -1109px, 0);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translate3d(0, -1020px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
