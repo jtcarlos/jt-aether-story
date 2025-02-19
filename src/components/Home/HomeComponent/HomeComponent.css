@@ -1,0 +1,10 @@
+.component-container {
+  background: radial-gradient(circle at 100% 100%, #fafafa 0, #fafafa 6px, transparent 6px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #fafafa 0, #fafafa 6px, transparent 6px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #fafafa 0, #fafafa 6px, transparent 6px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #fafafa 0, #fafafa 6px, transparent 6px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#fafafa, #fafafa) 50% 50% / calc(100% - 4px) calc(100% - 16px) no-repeat,
+    linear-gradient(#fafafa, #fafafa) 50% 50% / calc(100% - 16px) calc(100% - 4px) no-repeat,
+    linear-gradient(90deg, #d2d1d1 0%, transparent 100%);
+  box-sizing: border-box;
+}

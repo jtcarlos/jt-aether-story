@@ -10,7 +10,7 @@ interface HomeFeatureProps {
 }
 
 /**
- * @description renders the feature component in the home section
+ * @description renders the feature component in the home page
  *
  * @param {IconDefinition} icon icon to be displayed in the feature
  * @param {string} title title header of the feature
