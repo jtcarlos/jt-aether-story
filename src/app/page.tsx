@@ -3,6 +3,7 @@ import { Container, Stack } from "aether-ui"
 
 import HomeBanner from "@home/HomeBanner"
 import HomeFeature from "@home/HomeFeature"
+import HomeSubscribe from "@components/Home/HomeSubscribe"
 import HomeComponent from "@components/Home/HomeComponent"
 
 import { features } from "@home/utils/features.utils"
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
   return (
     <Fragment>
       <HomeBanner />
-      <Container>
+      <Container key={"main-container"}>
         <Stack justify="between" className="flex-col md:flex-row my-[7rem]" gap="gap-[5rem]">
           {features?.map((feature, index) => (
             <HomeFeature key={index} icon={feature.icon} title={feature.title} description={feature.description} />
@@ -29,6 +30,7 @@ const Home: React.FC = () => {
           </div>
         ))}
       </Container>
+      <HomeSubscribe />
     </Fragment>
   )
 }
